@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Learning to code</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+  </head>
+  <body>
+  	<div class="container">
+  		<h1>Hi - I'm Chloe's magic learning to code website</h1>
+  	</div>
+  	<h2>Site Structure</h2>
+  	<p>You can see how I have structured my directory in this github repo</p>
+  	<h2>Deployment</h2>
+  		
+  	<p>To help us get our site live we will be using <a href="https://surge.sh/">surge.sh</a>
+  			Surge is a static web publishing tool that makes deploying websites quick and easy. There are limitations but it is fine for our purposes.
+  			Surge has an excellent video that explains how to deploy from the command line. I recommend you watch it</p>
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/-EjdMvYPSVU" frameborder="0" allowfullscreen></iframe>
+			<h2>INSTRUCTIONS </h2> 
+			<ol> <li>ensure you have a recent version of <a href="https://nodejs.org/en/">Node.js</a></li>
+			<li>Then from the comannd line install Surge using npm by running the following command:
+`npm install --global surge`. You may need to preface this command with sudo</li>
+			<li>If you make an edit to your site and want to redeploy `surge --domain chloedonegan.surge.sh`</li>
+			<li>Wouldn't it be nicer just to be able to type `surge`? Save your domain name to a cname file - in the command line 'echo chloedonegan.surge.sh > CNAME'</li>
+			<li>Make a change , then type surge into your comand line and check out your site again!</li>
+  		</ol>
+  		
+  </body>
+</html>
